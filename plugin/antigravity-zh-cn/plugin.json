@@ -1,0 +1,12 @@
+{
+  "name": "antigravity-zh-cn",
+  "displayName": "Antigravity 简体中文语言包 (ZH-CN)",
+  "version": "1.0.0",
+  "description": "将 Antigravity 的 AI 助手交互、文档生成（Artifacts）、代码注释设为简体中文，并提供 Antigravity IDE 与 2.0 客户端 UI 界面汉化配置工具及中英术语对照。",
+  "logo": "assets/logo.svg",
+  "suggestedPrompts": [
+    "检查并配置 Antigravity 客户端 UI 界面中文化设置",
+    "展示 Antigravity 2.0 与 IDE 完整中英界面菜单对照表",
+    "切换中文回复模式（纯中文 / 中英双语术语保留）"
+  ]
+}

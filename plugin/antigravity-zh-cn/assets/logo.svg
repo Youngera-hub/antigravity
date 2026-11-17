@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" fill="none">
+  <defs>
+    <linearGradient id="bgGrad" x1="16" y1="16" x2="112" y2="112" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2563EB" />
+      <stop offset="100%" stop-color="#1D4ED8" />
+    </linearGradient>
+    <linearGradient id="badgeGrad" x1="68" y1="68" x2="114" y2="114" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#EF4444" />
+      <stop offset="100%" stop-color="#DC2626" />
+    </linearGradient>
+  </defs>
+  <!-- Main rounded tile with ~12% margin -->
+  <rect x="14" y="14" width="84" height="84" rx="20" fill="url(#bgGrad)" stroke="#60A5FA" stroke-width="2" />
+  <!-- "文" character -->
+  <text x="56" y="72" text-anchor="middle" fill="#FFFFFF" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="48" font-weight="bold">文</text>
+  <!-- Secondary "ZH" badge -->
+  <rect x="66" y="70" width="48" height="44" rx="12" fill="url(#badgeGrad)" stroke="#FCA5A5" stroke-width="2" />
+  <text x="90" y="99" text-anchor="middle" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="bold">ZH</text>
+</svg>
